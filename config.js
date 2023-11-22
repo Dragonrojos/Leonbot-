@@ -10,7 +10,7 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['528241050228', '👑 𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬 👑', true],
+  ['528241050228', '👑 𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!', true],
 
 ];
 
@@ -18,11 +18,11 @@ global.suittag = ['5219993404349'];
 global.prems = ['51995386439'];
 
 global.packname = 'Sticker';
-global.author = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬';
+global.author = '𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!';
 global.wm = 'The Mystic - Bot';
 global.titulowm = 'The Mystic - Bot';
 global.titulowm2 = `The Mystic - Bot`
-global.igfg = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬';
+global.igfg = '𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -43,9 +43,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬`;
-global.gt = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬';
-global.mysticbot = '𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!`;
+global.gt = '𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!';
+global.mysticbot = '𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!';
 global.md = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.mysticbot = 'https://github.com/BrunoSobrino/TheMystic-Bot-MD';
 global.waitt = '*[ ⏳ ] Cargando...*';
