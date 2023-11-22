@@ -21,13 +21,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬
+    const str = ` 𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!
 
  ┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝗔𝗟𝗖𝗔 𝗕𝗢𝗧—◉*
+┃ *◉—𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!—◉*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* ALCAVENTAS
-┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 824 105 0228
+┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* 𝗬𝗮𝗺𝘀𝗨 𝗕𝗼𝘁!
+┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 951 217 0935
 ┗━━━━━━━━━━━━━━━━━━┛
 
 *┃𝗕 𝗢 𝗧 𝗠 𝗘 𝗡 𝗨 𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗗𝗢𝗥𝗘𝗦*┃
@@ -84,30 +84,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣👤 _.stickersearch2 *<texto>*_
 ┣👤 _.animeinfo *<texto>*_
 ┣👤 _.google *<texto>*_
-┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃ ✨𝗔𝗝𝗨𝗦𝗧𝗘𝗦 𝗗𝗘 𝗚𝗥𝗨𝗣𝗢𝗦 ✨* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣🟢 _.add *<numero>*_
-┣🟢 _.kick *<@tag>*_
-┣🟢 _.kick2 *<@tag>*_
-┣🟢 _.listanum *<texto>*_
-┣🟢 _.kicknum *<texto>*_
-┣🟢 _.grupo *<abrir / cerrar>*_
-┣🟢 _.promote *<@tag>*_
-┣🟢 _.demote *<@tag>*_
-┣🟢 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┣🟢 _.demote *<@tag>*_
-┣🟢 _.infogroup_
-┣🟢 _.resetlink_
-┣🟢 _.link_
-┣🟢 _.setname *<texto>*_
-┣🟢 _.setdesc *<texto>*_
-┣🟢 _.invocar *<texto>*_
-┣🟢 _.setwelcome *<texto>*_
-┣🟢 _.setbye *<texto>*_
-┣🟢 _.setpp *<imagen>*_
 ┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗙𝗥𝗔𝗦𝗘𝗦 𝗢 𝗣𝗜𝗥𝗢𝗣𝗢𝗦✨*
