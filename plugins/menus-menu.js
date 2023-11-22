@@ -21,13 +21,13 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` 𝗔𝗟𝗖𝗔𝗕𝗢𝗧𝗩𝟮.𝟬
+    const str = ` 𝗕𝗢𝗧 𝗟𝗘𝗢𝗡🤟
 
  ┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝗔𝗟𝗖𝗔 𝗕𝗢𝗧—◉*
+┃ *◉—𝗕𝗢𝗧 𝗟𝗘𝗢𝗡🤟—◉*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* ALCAVENTAS
-┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 824 105 0228
+┣⟣☯︎ *𝗢𝗪𝗡𝗘𝗥:* 𝗕𝗢𝗧 𝗟𝗘𝗢𝗡🤟
+┣⟣☯︎ *𝗡𝗨𝗠𝗘𝗥𝗢:* +52 616 138 4021
 ┗━━━━━━━━━━━━━━━━━━┛
 
 *┃𝗕 𝗢 𝗧 𝗠 𝗘 𝗡 𝗨 𝗔𝗗𝗠𝗜𝗡𝗜𝗦𝗧𝗥𝗔𝗗𝗢𝗥𝗘𝗦*┃
@@ -85,30 +85,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┣👤 _.animeinfo *<texto>*_
 ┣👤 _.google *<texto>*_
 ┗━━━━━━━━━━━━━━━━┛
-
-┏━━━━━━━━━━━━━━━━┓
-*┃ ✨𝗔𝗝𝗨𝗦𝗧𝗘𝗦 𝗗𝗘 𝗚𝗥𝗨𝗣𝗢𝗦 ✨* 
-┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
-┣🟢 _.add *<numero>*_
-┣🟢 _.kick *<@tag>*_
-┣🟢 _.kick2 *<@tag>*_
-┣🟢 _.listanum *<texto>*_
-┣🟢 _.kicknum *<texto>*_
-┣🟢 _.grupo *<abrir / cerrar>*_
-┣🟢 _.promote *<@tag>*_
-┣🟢 _.demote *<@tag>*_
-┣🟢 _admins *<texto>*_ (𝑢𝑠𝑜 𝑠𝑖𝑛 𝑝𝑟𝑒𝑓𝑖𝑗𝑜)
-┣🟢 _.demote *<@tag>*_
-┣🟢 _.infogroup_
-┣🟢 _.resetlink_
-┣🟢 _.link_
-┣🟢 _.setname *<texto>*_
-┣🟢 _.setdesc *<texto>*_
-┣🟢 _.invocar *<texto>*_
-┣🟢 _.setwelcome *<texto>*_
-┣🟢 _.setbye *<texto>*_
-┣🟢 _.setpp *<imagen>*_
-┗━━━━━━━━━━━━━━━━┛
 ┏━━━━━━━━━━━━━━━━┓
 *┃✨ 𝗙𝗥𝗔𝗦𝗘𝗦 𝗢 𝗣𝗜𝗥𝗢𝗣𝗢𝗦✨*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
@@ -141,7 +117,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
 ┣🟣 _.play *<texto de la canción >*_
 ┗━━━━━━━━━━━━━━━━┛
-𝘾𝙍𝙀𝘼𝘿𝙊𝙍 @𝘼𝙇𝘾𝘼𝙎𝙃𝙊𝙋 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +5282410502208`.trim();
+𝘾𝙍𝙀𝘼𝘿𝙊𝙍 𝗕𝗢𝗧 𝗟𝗘𝗢𝗡🤟 𝘾𝙐𝘼𝙇𝙌𝙐𝙄𝙀𝙍 𝘿𝙐𝘿𝘼 𝙈𝘼𝙉𝘿𝘼𝙍𝙈𝙀 𝙈𝙀𝙉𝙎𝘼𝙅𝙀 𝘼𝙇 𝙒𝙋𝙋 +52 616 138 4021`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
